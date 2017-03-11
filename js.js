@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 		console.log(city);
 		// make the request to openweather
-		$.getJSON('//api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=1f838bbfc0f69fbb8acc0d156bbff258',
+		$.getJSON('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=1f838bbfc0f69fbb8acc0d156bbff258',
 			function (data) {
 				//consoling to see how it is working
 				console.log(data.main);
